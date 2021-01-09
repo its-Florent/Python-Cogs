@@ -5,7 +5,7 @@ import asyncio
 import os
 from discord.ext import commands
 
-extensions = ['']# Your Cog
+extensions = ['test']# Your Cog
 
 if __name__ == '__main__':
     for extension in extensions:
