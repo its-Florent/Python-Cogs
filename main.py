@@ -22,4 +22,4 @@ async def on_ready():
     print("User ID: ", bot.user.id)
 
 
-bot.run("TOKEN")
+bot.run("TOKEN") # Your Bot Token from https://discord.com/developers/applications
