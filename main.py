@@ -5,6 +5,9 @@ import asyncio
 import os
 from discord.ext import commands
 
+bot = commands.Bot(command_prefix='.') #intents=discord.Intents.all()) # Optional due to the Discord intents 
+
+
 extensions = ['test']# Your Cog
 
 if __name__ == '__main__':
